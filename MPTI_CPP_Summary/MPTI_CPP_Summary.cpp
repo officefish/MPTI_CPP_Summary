@@ -26,8 +26,16 @@ using std::cout;
 int main()
 {
     
-    cout << "MPTI C++ Summary \n";
+    cout << "MPTI C++ Summary \n\n";
 
-    return Summary0101(); // History, Common Words;
+    /* I History. Common Words.*/
+    //return Summary0101(); 
+    
+    /* II 1. C++ Program Structure */
+    //return Summary0201();
+
+    /* II 2. Instructions. Declaration */
+    return Summary0202();
+
 }
 

@@ -141,6 +141,9 @@
   <ItemGroup>
     <ClCompile Include="MPTI_CPP_Summary.cpp" />
     <ClCompile Include="Summary0101.cpp" />
+    <ClCompile Include="Summary0201.cpp" />
+    <ClCompile Include="Summary0202.cpp" />
+    <ClCompile Include="Summary0203.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Summary.h" />
