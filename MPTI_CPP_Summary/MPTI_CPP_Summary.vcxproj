@@ -143,7 +143,16 @@
     <ClCompile Include="Summary0101.cpp" />
     <ClCompile Include="Summary0201.cpp" />
     <ClCompile Include="Summary0202.cpp" />
+    <ClCompile Include="Summary02021.cpp" />
+    <ClCompile Include="Summary02022.cpp" />
+    <ClCompile Include="Summary02023.cpp" />
     <ClCompile Include="Summary0203.cpp" />
+    <ClCompile Include="Summary02031.cpp" />
+    <ClCompile Include="Summary02032.cpp" />
+    <ClCompile Include="Summary02033.cpp" />
+    <ClCompile Include="Summary0204.cpp" />
+    <ClCompile Include="Summary02041.cpp" />
+    <ClCompile Include="Summary02042.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Summary.h" />

@@ -2,6 +2,8 @@
 	https://www.tutorialspoint.com/cplusplus/cpp_data_types.htm
 */
 
+#define _CRT_SECURE_NO_WARNINGS
+
 #include "Summary.h"
 
 #include <iostream>
@@ -44,9 +46,9 @@ using std::endl;
 
 
 // Variable declaration:
-extern int a, b;
-extern int c;
-extern float f;
+extern int aE, bE;
+extern int cE;
+extern float fE;
 
 int Summary0202() {
 	
@@ -61,8 +63,8 @@ int Summary0202() {
 		(type) (name) [= (initial value)];
 	*/
 
-	char a;
-	char b = 'b';
+	char aC;
+	char bC = 'b';
 
 	/*
 		C++ Identifiers

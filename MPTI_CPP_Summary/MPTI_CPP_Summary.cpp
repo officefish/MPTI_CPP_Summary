@@ -35,7 +35,37 @@ int main()
     //return Summary0201();
 
     /* II 2. Instructions. Declaration */
-    return Summary0202();
+    //return Summary0202();
+
+    /* II 2.1 Declaration. Variable Types */
+    //return Summary02021();
+
+    /* II 2.2 Declaration. Modifier Types */
+    //return Summary02022();
+
+    /* II 2.3 Declaration. Specifiers. */
+    return Summary02023();
+
+    /* II 3.  Expressions */
+    //return Summary0203();
+
+    /* II 3.1  Operators */
+    //return Summary02031();
+
+    /* II 3.2 Convertions */
+    //return Summary02032();
+
+    /* II 3.3 Memory allocation */
+    //return Summary02033();
+
+    /* II 4 Statements */
+    //return Summary0204();
+
+    /* II 4 Decision making / If Statements */
+    //return Summary02041();
+
+    /* II 4 Loop Statements */
+    //return Summary02042();
 
 }
 

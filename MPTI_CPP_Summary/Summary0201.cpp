@@ -13,8 +13,8 @@ int Summary0201() {
 		}
 	 
 		for using std::cin; std::cout; need to include <iostream> library from standard library
-		https://en.cppreference.com/w/cpp/header/iostream
-	  
+		https://en.cppreference.com/w/
+			  
 	*/
 
 	/*
