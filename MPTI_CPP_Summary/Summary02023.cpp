@@ -232,48 +232,50 @@ int Summary02023() {
 */
 
 /*
-	typedef							Псевдоним типа. Возьми уже известный тебе тип и ассоциируй его с новым, мною указанным типом.
+	typedef							Type alias. Take the type you already know and associate it with the new type I indicated.
 
-	inline							Возьми этот кусок кода и вставь его в место вызова функции на этапе компиляции
+	inline							Take this piece of code and paste it where the function is called at compile time
 
-	virtual							Используй эту функцию в зависимости от того контекста, в которой ее вызываешь. 
-									Если ее переопределят наследники, используй код наследников.
+	virtual							Use this function depending on the context in which you call it. 
+									If inheritors override it, use the inheritors code.
 
-	explicit						Используй только явные преобразования типов, с этой переменной никакого синтаксического сахара.
+	explicit						Use only explicit type conversions, no syntactic sugar with this variable.
 
-	friend							Относись к этой функции как к публичному методу класса. В ее теле можешь обращаться к приватным полям.
+	friend							Treat this function as a public method of the class. In its body, you can access private fields.
 
-	constexpr						Я тебе посчитаю все еще на этапе компеляции, но сделай так чтобы это поле или функция не при каких обстоятельствах
-									не вызывала ошибок. Поосторожнее со мной.
+	constexpr						I'll count it for you still at the stage of compilation, 
+									but make sure that this field or function is not under any circumstances did not cause errors. 
+									Be careful with me.
 									https://habr.com/ru/post/228181/
 
-	consteval,						(C++20) Я безотлагательная функция, это значит что я посчитаюсь еще на этапе компиляции. У меня куча ограничений.
+	consteval,						(C++20) I am an immediate function, which means that I will be counted at the compilation stage. 
+									I have a lot of restrictions.
 	
-	constinit						Я переменная и тоже посчитаюсь на этапе компиляции, при условии что просуществую в глобальной области видимости 
-									на всем протяжении работы программы
+	constinit						I am a variable and will also be counted at the compilation stage, 
+									provided that I exist in the global scope throughout the program
 									https://ravesli.com/c-20-dva-novyh-klyuchevyh-slova-consteval-i-constinit/
 
 
-	auto							Я могу быть чем угодно, в зависимости от контекста, используй меня во всяких там for each для удобства
+	auto							I can be anything, depending on the context, use me in all sorts of for each for convenience
 
-	register						Данный спецификатор указывает компилятору хранить значение переменной не в памяти, а в регистре процессора. 
-									Иной трактовкой спецификатора register служит подсказка компилятору, что данный объект используется очень интенсивно.
+	register						This specifier tells the compiler to store the value of a variable not in memory, but in a processor register.
+									Another interpretation of the register specifier is a hint to the compiler that this object is being used very heavily.
 									http://www.quizful.net/post/cpp-keywords-usage
 
-	static							Ты будешь помнить обо мне на всем протяжении работы программы. Доступ ко мне будет только в области видимости файла.
+	static							You will remember me throughout the program. Access to me will only be within the scope of the file.
 									https://habr.com/ru/post/527044/
 
-	extern							Я расширяю область видимости этой переменной. Ее теперь должны видеть все. 
-									Спецификатор extern указывает, что переменная обладает внешними связями.  
+	extern							I am expanding the scope of this variable. Everyone should see it now.
+									The extern specifier indicates that the variable has external links. 
 
-	volatile						Меня можно изменить неявным способом, не используя оператор присвоения. 
-									Например, каким-то процессом за пределами программы.
+	volatile						I can be changed implicitly without using the assignment operator.
+									For example, by some process outside the program.
 
-	mutable							Я могу изменять значения переменных, которые компилятор считает константами. Например мной можно помечать переменные,
-									которые нужно менять в методах константного типа.
+	mutable							I can change the values of variables that the compiler considers constants. For example, I can mark variables,
+									which need to be changed in constant type methods.
 
-	thread_local					Храни меня в локальном хронилище. 
-									Спецификатор класса хранения — это рекомендуемый способ указания локального хранилища потока для объектов и членов класса.
+	thread_local					Keep me in the local chronicle.
+									The storage class specifier is the recommended way to specify stream local storage for objects and class members.
 									https://docs.microsoft.com/ru-ru/cpp/parallel/thread-local-storage-tls?view=msvc-160
 */
 
